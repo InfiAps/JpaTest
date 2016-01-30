@@ -8,8 +8,8 @@ http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
     <class>dk.amk.jpatest.model.Tbl1</class>
     <properties>
     <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/JpaTest" />
-    <property name="javax.persistence.jdbc.user" value="amkuser1" />
-    <property name="javax.persistence.jdbc.password" value="prehospital" />
+    <property name="javax.persistence.jdbc.user" value="xxxx" />
+    <property name="javax.persistence.jdbc.password" value="xxxx" />
     <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
     <property name="hibernate.show_sql" value="false" />
     <property name="hibernate.format_sql" value="true" />
