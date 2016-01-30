@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySql - JpaTest@localhost" uuid="a343c2f3-ef67-4597-92bc-eb779bb0782e">
+      <secret-storage>master_key</secret-storage>
+      <user-name>amkuser1</user-name>
+      <schema-pattern>JpaTest.*</schema-pattern>
+      <default-schemas>JpaTest.*</default-schemas>
+    </data-source>
+  </component>
+</project>

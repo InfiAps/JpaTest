@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="MySql - JpaTest@localhost" uuid="a343c2f3-ef67-4597-92bc-eb779bb0782e">
+    <database-info product="MySQL" version="5.5.40-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact"/>
+    <database-model serializer="dbm" rdbms="MYSQL" format-version="2.4">
+      <schema id="1" name="JpaTest"/>
+      <table id="2" parent="1" name="Tbl1">
+        <comment>Test table for JpaTest</comment>
+      </table>
+      <table id="3" parent="1" name="Tbl2"/>
+      <column id="4" parent="2" name="tbl1Index">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="5" parent="2" name="fld1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4000)</data-type>
+      </column>
+      <column id="6" parent="2" name="fld2">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="7" parent="2" name="fld3">
+        <mandatory>1</mandatory>
+        <data-type>double</data-type>
+      </column>
+      <column id="8" parent="2" name="fld4">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <key id="9" parent="2" name="PRIMARY">
+        <columns>tbl1Index</columns>
+        <primary>1</primary>
+      </key>
+      <column id="10" parent="3" name="tbl2Index">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="11" parent="3" name="sFld1">
+        <mandatory>1</mandatory>
+        <data-type>varchar(4000)</data-type>
+      </column>
+      <column id="12" parent="3" name="sFld2">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <column id="13" parent="3" name="sFld3">
+        <mandatory>1</mandatory>
+        <data-type>float</data-type>
+      </column>
+      <column id="14" parent="3" name="sFld4">
+        <mandatory>1</mandatory>
+        <data-type>datetime</data-type>
+      </column>
+      <column id="15" parent="3" name="tbl1Fk">
+        <mandatory>1</mandatory>
+        <data-type>bigint(20)</data-type>
+      </column>
+      <key id="16" parent="3" name="PRIMARY">
+        <columns>tbl2Index</columns>
+        <primary>1</primary>
+      </key>
+    </database-model>
+  </data-source>
+</component>
